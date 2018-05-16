@@ -9,10 +9,6 @@ ul li{
     
   }
 
-footer{
-    text-align: right;
-}
-
 .mision{
     display: block;
     margin-left: auto;
@@ -28,3 +24,41 @@ footer{
     height: 200px;
     width: 350px;
 }
+
+.principal{
+    
+    margin-left: 40%;   
+    height: 200px;
+    width: 350px;
+
+}
+
+.personal{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 350px;
+}
+
+.redesSociales{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 350px;
+    
+}
+
+.articulo1{
+    display: inline;
+
+}
+
+footer{
+    padding: 100px;
+    text-align: right;
+}
+
+
