@@ -3,6 +3,10 @@ h1{
     font-family: 'Bree Serif', serif;
 }
 
+h2{
+	text-align: center;
+}
+
 ul li{
     display: inline;
     padding: 15px;
@@ -46,8 +50,8 @@ ul li{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 350px;
-    width: 550px;
+    height: 150px;
+    width: 250px;
     border-radius: 50%;
     
 }
@@ -57,9 +61,16 @@ ul li{
 
 }
 
+
 footer{
     padding: 100px;
     text-align: right;
+}
+
+.radioGroup{
+	float: left;
+	clear: none;
+	padding: 20px;
 }
 
 
