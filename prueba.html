@@ -8,6 +8,20 @@
 body {
     font-family: "Lato", sans-serif;
 }
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
 
 .sidenav {
     height: 100%;
@@ -113,7 +127,14 @@ function closeNav() {
 
 		<footer>
 			<p>&copy; El contenido de esta página pertenece a Kevin Urgilés </p>
-
+			<div class="pagination">
+  			<a href="index.html">&laquo;</a>
+  			<a href="index.html">1</a>
+  			<a class="active" href="prueba.html">2</a>
+  			<a href="personal.html">3</a>
+  			<a href="encuentrenos.html">4</a>
+  			<a href="personal.html">&raquo;</a>
+</div>
 		</footer>
 
 
