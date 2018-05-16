@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+ul li{
+    display: inline;
+    padding: 15px;
+    
+  }
+
+footer{
+    text-align: right;
+}
+
+.mision{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 350px;
+}
+
+.vision{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 350px;
+}
