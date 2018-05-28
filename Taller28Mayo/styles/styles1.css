@@ -97,3 +97,9 @@ hr{
 	margin-top: 2em;
 	margin-left: 2em;
 }
+
+.table{
+	width: 400px;
+	height: 200px;
+	margin-left: 2em;
+}
