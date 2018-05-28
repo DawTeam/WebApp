@@ -9,26 +9,31 @@ h1{
 	display: inline;
 	list-style: none;
 	padding-right: 2em;
-<<<<<<< HEAD
+
 }
 
 #seccion_aside{
 	width: 200px;
-	height: 400px;
+	height: 420px;
 	text-align: center;
+	border: 2px solid black;
+	margin-left: 2em;
 }
 
 .computer{
 	width: 180px;
 	height: 150px;
-=======
 	opacity: 0.69;
 	cursor: pointer;
->>>>>>> d3c1a56415c20373c24cbb1c18db245ba26bdf55
+
 }
 footer{
 	border-width: 3pt dotted black;
 	color: purple;
 	text-align: justify;
     text-justify: inter-word;
+}
+
+hr{
+	margin-bottom: 2em;
 }
