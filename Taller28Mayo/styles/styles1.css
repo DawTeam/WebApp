@@ -9,4 +9,6 @@ h1{
 	display: inline;
 	list-style: none;
 	padding-right: 2em;
+	opacity: 0.69;
+	cursor: pointer;
 }
