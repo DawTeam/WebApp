@@ -85,3 +85,15 @@ hr{
 	width: 200px;
 	height: 200px;
 }
+
+.calendar{
+	width: 200px;
+	height: 200px;
+	clear: both;
+}
+
+.articulo2{
+	clear: both;
+	margin-top: 2em;
+	margin-left: 2em;
+}
