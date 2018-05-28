@@ -9,3 +9,14 @@ h1{
 	list-style: none;
 	padding-right: 2em;
 }
+
+#seccion_aside{
+	width: 200px;
+	height: 400px;
+	text-align: center;
+}
+
+.computer{
+	width: 180px;
+	height: 150px;
+}
