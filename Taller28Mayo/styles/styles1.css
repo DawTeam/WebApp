@@ -29,7 +29,8 @@ h1{
 }
 footer{
 	border-width: 3pt dotted black;
-	color: purple;
+	background-color: blue;
+	color: white;
 	text-align: justify;
     text-justify: inter-word;
 }
