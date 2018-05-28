@@ -9,6 +9,9 @@ h1{
 	display: inline;
 	list-style: none;
 	padding-right: 2em;
+	font-weight: bold;
+	font-size: 2em;
+	margin-left: 4em;
 
 }
 
