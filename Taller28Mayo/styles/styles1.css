@@ -32,9 +32,9 @@ h1{
 }
 footer{
 	border-width: 3pt dotted black;
-	background-color: blue;
+	background-color: #0404B4;
 	color: white;
-	text-align: justify;
+	text-align: left;
     text-justify: inter-word;
 }
 
