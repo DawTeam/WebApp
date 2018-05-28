@@ -26,3 +26,7 @@ h1{
 	cursor: pointer;
 >>>>>>> d3c1a56415c20373c24cbb1c18db245ba26bdf55
 }
+footer{
+	border-width: 3pt dotted black;
+	color: purple;
+}
