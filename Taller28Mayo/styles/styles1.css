@@ -29,4 +29,6 @@ h1{
 footer{
 	border-width: 3pt dotted black;
 	color: purple;
+	text-align: justify;
+    text-justify: inter-word;
 }
