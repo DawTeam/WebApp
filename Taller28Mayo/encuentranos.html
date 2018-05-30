@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<title>TodosMisServicios</title>
 		<meta name="keywords" content="servicios">
-		<link rel="stylesheet" type="text/css" href="css/general.css">
+		<link rel="stylesheet" href="css/general.css">
 	</head>
 	<body>
 		<header>
@@ -19,11 +19,12 @@
 		<div class="grid-container">
 			<div class="contenidoIzquierda">
 				<h3>¿Cómo usar nuestro sitio?</h3>
-				<iframe src="https://www.youtube.com/watch?v=YvoFW3mXODM" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
 				<a class="twitter-timeline" data-height="400" data-width="100%" data-chrome="nofooter" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js"></script>
 			</div>
+			
 			<div class="formulario">
-				<h2>Envianos tu comentario</h2>
+				<h2 class="enviar">Envíanos tu comentario</h2>
 				<p>Nombres Completos: <input type="text" name="nombres" placeholder="Ingrese aqui sus nombres" /></p>
 						<p>Correo Electronico: <input type="text" name="correo" placeholder="Ingrese aqui su correo electronico" /></p>
 						<p>Utilidad del sitio: <input type="radio" name="util" value="Nada"> Nada  
@@ -40,13 +41,18 @@
 								<option value="Los Rios">Pichincha</option>
 								<option value="Los Rios">Azuay</option>
 							</select></p>
-						<p>Comentarios: <br><textarea  placeholder="Ingrese aqui sus comentarios"></textarea></p>
+						<p>Comentarios: <br><br><textarea rows="4" cols="80" placeholder="Ingrese aqui sus comentarios"></textarea></p>
 						<p><input type="checkbox" name="suscribirme" value="gusta"> Deseo suscribirme para recibir noticias</p>
 						<p><button type="submit">Enviar</button></p>  
+						<img src="img/comments.jpg" class="comments">
+
 			</div>
+
+
+			
 		</div>
 		<footer>
-			<span id="contFooter">&#xA9; Este contenido es perteneciente a Kevin Urgiles y Leonardo Castro</span>
+			<span id="contFooter">&#xA9; Este contenido pertenece a Kevin Urgiles y Leonardo Castro</span>
 		</footer>
 	</body>
 </html>
