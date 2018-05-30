@@ -132,16 +132,6 @@ li[id="menufb"]:hover #fb,li[id="menuig"]:hover #insta,li[id="menuti"]:hover #ti
 	display: block;
 }
 
-.comments{
-	margin-left: 5em;
-	margin-top: 6em;
-	display: grid;
-	text-align: right;
-	height: 400px;
-	width: 400px;
-	border: 2px solid black;
-	border-radius: 10%;
-}
 
 
 
