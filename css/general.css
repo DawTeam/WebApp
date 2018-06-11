@@ -144,6 +144,12 @@ ul#serviciosRegistrados>li:hover{
 	text-align: justify;
 }
 
+.parrafo{
+	margin: 14px;
+	padding-top: 35px;
+	text-align: justify;
+}
+
 li[id="menufb"]:hover #fb,li[id="menuig"]:hover #insta,li[id="menuti"]:hover #ti,li[id="menutwi"]:hover #twii{
 	display: block;
 }
