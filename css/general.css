@@ -89,6 +89,20 @@ footer #contFooter{
 	margin: 20px
 }
 
+.video{
+	height: 300px;
+	width: 500px;
+}
+
+.twitter-timeline{
+	height: 700px;
+}
+
+.jumbotron{
+	height: 30px;
+
+}
+
 .contenidoDerecha >* >*{
 	margin: 20px
 }
@@ -98,6 +112,8 @@ footer #contFooter{
 	border-radius: 10%;
 	box-shadow: 5px 5px #888888;
 	margin: 1em;
+	height: 300px;
+	width: 500px;
 }
 .formulario{
 	text-align: left;
