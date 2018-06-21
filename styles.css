@@ -6,6 +6,9 @@
 }
 
 .libro{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 	height: 15em;
 	width: 10em;
 	margin: 1.2em 1.2em 0.8em 1.2em;
@@ -34,6 +37,10 @@ a:hover, img:hover{
 	margin-left: auto;
 }
 
+.ver{
+	display: none;
+}
+
 @media screen and (max-width: 600px) {
 
 	.caja{
@@ -47,6 +54,18 @@ a:hover, img:hover{
     height: 12em;
  
   }
+
+  .par2, .par3{
+  	display: none;
+  }
+
+  .ver{
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+
+
 }
 
 
