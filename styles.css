@@ -29,6 +29,14 @@ a:hover, img:hover{
 	color: white;
 }
 
+@media screen and (max-width: 600px) {
+  .libro {
+    width: 20em;
+    height: 25em;
+    margin-left: auto;
+  }
+}
+
 
 
 
