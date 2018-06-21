@@ -1,134 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>TodosMisServicios</title>
-		<meta name="keywords" content="servicios">
-		<link rel="stylesheet" href="css/general.css">
-		<link rel="stylesheet" href="css/all.css">
-		<link rel="stylesheet" href="css/calendar.css">
-		<link rel='stylesheet prefetch' href='http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-		
-	</head>
-	<body>
-		<header>
-			<h1 id="cabecera">TodosMisServicios.ec</h1>
-		</header>
-		<ul class="nav nav-pills nav-fill">
-	  			<li class="nav-item">
-	    			<a class="nav-link active" href="index.html">Principal</a>
-	  			</li>
-	  			<li class="nav-item">
-	    			<a class="nav-link" href="quienessomos.html">¿Quiénes somos?</a>
-	  			</li>
-	  			<li class="nav-item">
-	    			<a class="nav-link" href="personal.html">Personal</a>
-	  			</li>
-	  			<li class="nav-item">
-	    			<a class="nav-link" href="encuentranos.html">Encuéntranos</a>
-	  			</li>
-		</ul>
-		
-		
-		<div class="container-fluid">
+  <head>
+    <title>Inicio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-			<div class="row">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body >
+    <div class="container pt-4">
+      <!-- about -->
+      <div class="row">
+        <!--  col-xl-5 It is used to give a space of 5/12 in all the row-->
+        <div class="col-md">
+          <h3 class="mb-4 text-center">Autores destacados</h3>
+          <h4 class="text-center">Rafael Guzman Morán</h4>
+          <img src="./img/author.jpg" class="img-fluid rounded p-2 ">
+		      <p class="text-justify">Libro destacado: <strong>El emprendedor ecuatoriano</strong>. Rafael Guzman manifiesta la necesidad que tiene el país de generar emprendedores de forma continua y, a su vez, cómo éstos deben mantener una constante evolución en su camino hacia la independencia laboral.</p>
+		      <p class="text-justify">Anímate a descubrir su libro y su historia plagada de éxitos y aprendizajes. <a href="">Ver más </a></p>
+        </div>
+        <div class="col-md">
+		      <h3 class="mb-4 text-center">Próximos eventos</h3>
+  	      <p class="text-justify">No te pierdas nuestro siguiente conversatorio con Pablo Arosemena Marriot, presidente de la cámara de comercio de Guayaquil.</p>
+		      <p class="text-justify">En su último libro <strong>Época de vacas flacas</strong> destaca las condiciones a las que se ha enfrentado el Ecuador en los últimos 10 años. ¿Cuáles fueron buenas? ¿Cuáles fueron malas?.</p>
+		      <p class="text-justify">Si traes un amigo a <strong>La pluma del rey</strong> tienes un descuento del 30% en tu siguiente aventura en papel!</p>
+          <a href="./unete.html">Únete a nosotros</a>
+        </div>
+        <!-- order-lg-1 to stablish an order in a specific screen size -->
+        <!-- If you use "order" you have to stablish it for all the siblings. Otherwise, it wont function -->
+        <div class="col-md ">
+          <h3 class="mb-4">Ayúdanos a ayudar</h3>
+          <h5>Necesitamos tu ayuda para: </h5>
+		      <ul class="text-justify">
+		      	<li>Donar libros a escuelas públicas</li>
+		      	<li>Brindar descuentos para estudiantes</li>
+		      	<li>Contactar autores destacados</li>
+		      	<li>Alfabetizar personas mayores a 15 años</li>
+            <li>Promover la lectura en nuestro país</li>
+		 
+		      </ul>
+          <a href="">¿Cómo puedo ayudar?</a>
 
-				<div class="col-sm-4">
-					<h3>¿Cómo usar nuestro sitio?</h3>
-					<iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen class="video"></iframe>
+        </div>     
+      </div><!-- /about -->
+        <hr>
+        <!-- Libros destacados -->
+        <h2 class="display-4 text-center mt-2 my-0">Libros destacados de la semana</h2>
 
-				</div>
+        <div class="row py-1 text-center">
+          <div class="col-10 col-sm-6 col-md-6 col-lg-3 ml-auto ">
+            <img src="./img/elonmusk.jpg" class="img-fluid libro">
+            <a href="">Comprar</a>
+          </div>
+          <div class="col-10 col-sm-6 col-md-6 col-lg-3 ml-auto">
+            <img src="./img/theonething.jpg" class="img-fluid libro">
+            <a href="">Comprar</a>
+          </div>
+          <div class="col-10 col-sm-6 col-md-6 col-lg-3 ml-auto">
+            <img src="./img/stevejobs.jpg" class="img-fluid libro">
+            <a href="">Comprar</a>
+          </div>
+          <div class="col-10 col-sm-6 col-md-6 col-lg-3 ml-auto">
+            <img src="./img/habitos.jpg" class="img-fluid libro">
+            <a href="">Comprar</a>
+          </div>
+          <div class="col-10 col-sm-6 col-md-6 col-lg-3 ml-auto">
+            <img src="./img/frankenstein.jpg" class="img-fluid libro">
+            <a href="">Comprar</a>
+          </div>
+          <div class="col-10 col-sm-6 col-md-6 col-lg-3 ml-auto">
+            <img src="./img/lasombradelviento.jpg" class="img-fluid libro">
+            <a href="">Comprar</a>
+          </div>
+          <div class="col-10 col-sm-6 col-md-6 col-lg-3 ml-auto">
+            <img src="./img/harrypotter1.jpg" class="img-fluid libro">
+            <a href="">Comprar</a>
+          </div>
+          <div class="col-10 col-sm-6 col-md-6 col-lg-3 ml-auto">
+            <img src="./img/1984.jpg" class="img-fluid libro">
+            <a href="">Comprar</a>
+          </div>
+        </div>
 
-				<div class="col-sm-4">
-					<h2>Principal</h2>
-					<div id="contenidoTodosMisServicios">
-						<div class="subItem">
-							<img class="imagen" src="img/inge.jpg" alt="Distintos carreras">
-						</div>
 
-					</div>
-				</div>
+        <!-- /Libros destacados -->
+        <hr>
+        <div class="row py-4 text-muted">
+          <div class="col-md col-xl-5 ">
+            <p>Acerca de Nosotros</p>
+            <p >Somos dos estudiantes entusiastas motivados por cultivar un hábito lector en toda Latinoamérica.</p>
+            <p><strong>Libros que cambian vidas</strong></p>
+          </div>
+          <div class="col-md col-xl-5  ml-auto
+          ">
+            <p class="text-center">Síguenos en nuestras redes sociales</p>
+            <div class="row py-2">
+              <div class="col-3 col-sm-3 col-lg-3 ml-auto">
+                <img src="./img/facebook.png" class="img-fluid ">
+              </div>
+              <div class="col-3 col-sm-3 col-lg-3 ml-auto">
+                <img src="./img/twitter.png" class="img-fluid ">
+              </div>
+              <div class="col-3 col-sm-3 col-lg-3 ml-auto">
+                <img src="./img/instagram.png" class="img-fluid ">
+              </div>
+            </div>
+          </div>
+        </div>
 
-				<div class="col-sm-4">
-					
-						
-						<p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-							
 
-					
+    </div><!-- /.container -->
 
-				</div>
+    
+      
+    </div>
 
-			
-			</div>
-		
-				<div class="row">
-
-						<div class="col-sm-4">
-							<a class="twitter-timeline" data-height="75%" data-width="100%" data-chrome="nofooter" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js"></script>
-						</div>
-						
-						<div class="col-sm-4">
-							<table class="tabla">
-								<tr>
-									<th>Servicios</th>
-									<th>Contactos</th>
-								</tr>
-								<tr>
-									<td>Agua potable</td>
-									<td>0931348231</td>
-								</tr>
-								<tr>
-									<td>Luz electrica</td>
-									<td>5555557778</td>								
-								</tr>
-								<tr>
-									<td>Internet</td>
-									<td>0931348231</td>
-								</tr>
-								<tr>
-									<td>Tv Cable</td>
-									<td>5555557778</td>								
-								</tr>
-								<tr>
-									<td>Teléfono</td>
-									<td>0931348231</td>
-								</tr>
-								<tr>
-									<td>Luz electrica</td>
-									<td>5555557778</td>								
-								</tr>
-							</table>
-						</div>
-
-						<div class="col-sm-4">
-									<div id="calendar">
-								<div id="calendar_header">
-									<i class="icon-chevron-left"></i>
-									<h1></h1><i class="icon-chevron-right"></i>        
-								</div>
-								<div id="calendar_weekdays"></div>
-								<div id="calendar_content"></div>
-							</div>
-							<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-							<script type="text/javascript" src="js/calendario.js"></script>
-						</div>
-							
-				</div>
-		</div>
-						
-					
-						
-						
-					
-				
-				
-		</div>
-
-		<footer>
-			<span id="contFooter"> &#xA9; El contenido de esta página pertenece a Kevin Urgilés y Leonardo Castro</span>
-		</footer>
-	</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  </body>
 </html>

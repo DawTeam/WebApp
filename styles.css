@@ -1,0 +1,19 @@
+.bookcase{
+	width: 40%;
+	height: 30%;
+	border-radius: 5%;
+	margin-bottom: 3em;
+}
+
+.libro{
+	height: 16em;
+	width: 12em;
+	margin: 1.2em 1.2em 0 1.2em;
+	padding: 5px;
+	border-radius: 2%;
+	border: 2px solid black;
+	box-shadow: 3px 3px #888888;
+}
+
+
+
