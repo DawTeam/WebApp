@@ -8,12 +8,28 @@
 .libro{
 	height: 16em;
 	width: 12em;
-	margin: 1.2em 1.2em 0 1.2em;
+	margin: 1.2em 1.2em 0.8em 1.2em;
 	padding: 5px;
-	border-radius: 2%;
-	border: 2px solid black;
-	box-shadow: 3px 3px #888888;
+	border-bottom: 2px solid white;
+
 }
+
+.enlaces{
+	background-color: #333;
+	font-weight: bolder;
+	padding: 0.1em 0.3em;
+	color: white;
+	font-size: 0.8em;
+
+}
+
+
+a:hover, img:hover{
+	transform: scale(1.1);
+	color: white;
+}
+
+
 
 
 

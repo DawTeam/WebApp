@@ -10,7 +10,54 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
-  <body >
+  <body class=" text-white bg-dark" >
+    <header>
+
+
+      
+    </header>
+
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="unete.html">Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Mi cuenta
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Iniciar sesión</a>
+                <a class="dropdown-item" href="#">Crear cuenta</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Salir</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Nombre del libro" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+  </nav>
+    <!-- /NavBar -->
+
+
     <div class="container pt-4">
       <!-- about -->
       <div class="row">
@@ -20,21 +67,22 @@
           <h4 class="text-center">Rafael Guzman Morán</h4>
           <img src="./img/author.jpg" class="img-fluid rounded p-2 ">
 		      <p class="text-justify">Libro destacado: <strong>El emprendedor ecuatoriano</strong>. Rafael Guzman manifiesta la necesidad que tiene el país de generar emprendedores de forma continua y, a su vez, cómo éstos deben mantener una constante evolución en su camino hacia la independencia laboral.</p>
-		      <p class="text-justify">Anímate a descubrir su libro y su historia plagada de éxitos y aprendizajes. <a href="">Ver más </a></p>
+		      <p class="text-justify">Anímate a descubrir su libro y su historia plagada de éxitos y aprendizajes. <a href="" class="rounded enlaces">Ver más </a></p>
         </div>
         <div class="col-md">
 		      <h3 class="mb-4 text-center">Próximos eventos</h3>
   	      <p class="text-justify">No te pierdas nuestro siguiente conversatorio con Pablo Arosemena Marriot, presidente de la cámara de comercio de Guayaquil.</p>
-		      <p class="text-justify">En su último libro <strong>Época de vacas flacas</strong> destaca las condiciones a las que se ha enfrentado el Ecuador en los últimos 10 años. ¿Cuáles fueron buenas? ¿Cuáles fueron malas?.</p>
+		      <p class="text-justify">En su último libro <strong>La culpa es de las vacas flacas</strong> destaca las condiciones a las que se ha enfrentado el Ecuador en los últimos 10 años. ¿Cuáles fueron buenas? ¿Cuáles fueron malas?.</p>
 		      <p class="text-justify">Si traes un amigo a <strong>La pluma del rey</strong> tienes un descuento del 30% en tu siguiente aventura en papel!</p>
-          <a href="./unete.html">Únete a nosotros</a>
+          <a href="./unete.html" class="rounded enlaces">Únete a nosotros</a>
+          <br>
         </div>
         <!-- order-lg-1 to stablish an order in a specific screen size -->
         <!-- If you use "order" you have to stablish it for all the siblings. Otherwise, it wont function -->
         <div class="col-md ">
-          <h3 class="mb-4">Ayúdanos a ayudar</h3>
+          <h3 class="mb-4 text-center">Ayúdanos a ayudar</h3>
           <h5>Necesitamos tu ayuda para: </h5>
-		      <ul class="text-justify">
+		      <ul class="text-justify ml-auto">
 		      	<li>Donar libros a escuelas públicas</li>
 		      	<li>Brindar descuentos para estudiantes</li>
 		      	<li>Contactar autores destacados</li>
@@ -42,7 +90,7 @@
             <li>Promover la lectura en nuestro país</li>
 		 
 		      </ul>
-          <a href="">¿Cómo puedo ayudar?</a>
+          <a href="" class="rounded enlaces">¿Cómo puedo ayudar?</a>
 
         </div>     
       </div><!-- /about -->
@@ -53,44 +101,44 @@
         <div class="row py-1 text-center">
           <div class="col-10 col-sm-6 col-md-6 col-lg-3 ml-auto ">
             <img src="./img/elonmusk.jpg" class="img-fluid libro">
-            <a href="">Comprar</a>
+            <a href="" class="text-white rounded enlaces">Comprar</a>
           </div>
           <div class="col-10 col-sm-6 col-md-6 col-lg-3 ml-auto">
             <img src="./img/theonething.jpg" class="img-fluid libro">
-            <a href="">Comprar</a>
+            <a href="" class="text-white rounded enlaces">Comprar</a>
           </div>
           <div class="col-10 col-sm-6 col-md-6 col-lg-3 ml-auto">
             <img src="./img/stevejobs.jpg" class="img-fluid libro">
-            <a href="">Comprar</a>
+            <a href="" class="text-white rounded enlaces">Comprar</a>
           </div>
           <div class="col-10 col-sm-6 col-md-6 col-lg-3 ml-auto">
             <img src="./img/habitos.jpg" class="img-fluid libro">
-            <a href="">Comprar</a>
+            <a href="" class="text-white rounded enlaces">Comprar</a>
           </div>
           <div class="col-10 col-sm-6 col-md-6 col-lg-3 ml-auto">
             <img src="./img/frankenstein.jpg" class="img-fluid libro">
-            <a href="">Comprar</a>
+            <a href="" class="text-white rounded enlaces">Comprar</a>
           </div>
           <div class="col-10 col-sm-6 col-md-6 col-lg-3 ml-auto">
             <img src="./img/lasombradelviento.jpg" class="img-fluid libro">
-            <a href="">Comprar</a>
+            <a href="" class="text-white rounded enlaces">Comprar</a>
           </div>
           <div class="col-10 col-sm-6 col-md-6 col-lg-3 ml-auto">
             <img src="./img/harrypotter1.jpg" class="img-fluid libro">
-            <a href="">Comprar</a>
+            <a href="" class="text-white rounded enlaces">Comprar</a>
           </div>
           <div class="col-10 col-sm-6 col-md-6 col-lg-3 ml-auto">
             <img src="./img/1984.jpg" class="img-fluid libro">
-            <a href="">Comprar</a>
+            <a href="" class="text-white rounded enlaces">Comprar</a>
           </div>
         </div>
 
 
         <!-- /Libros destacados -->
         <hr>
-        <div class="row py-4 text-muted">
+        <div class="row py-4">
           <div class="col-md col-xl-5 ">
-            <p>Acerca de Nosotros</p>
+            <p><strong>¿Quiénes somos?</strong></p>
             <p >Somos dos estudiantes entusiastas motivados por cultivar un hábito lector en toda Latinoamérica.</p>
             <p><strong>Libros que cambian vidas</strong></p>
           </div>
@@ -111,13 +159,11 @@
           </div>
         </div>
 
-
-    </div><!-- /.container -->
+    </div>
+    <!-- /.container -->
 
     
-      
-    </div>
-
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
