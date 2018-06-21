@@ -29,11 +29,23 @@ a:hover, img:hover{
 	color: white;
 }
 
+.caja{
+	margin-right: auto;
+	margin-left: auto;
+}
+
 @media screen and (max-width: 600px) {
+
+	.caja{
+		
+		width: 25em;
+	}
+
+
   .libro {
-    width: 20em;
-    height: 25em;
-    margin-left: auto;
+    width: 10em;
+    height: 15em;
+ 
   }
 }
 
