@@ -5,6 +5,11 @@
 	margin-bottom: 3em;
 }
 
+.fondoPrincipal{
+	height: 30em;
+	width: 100%;
+}
+
 .libro{
 	display: block;
   	margin-left: auto;
@@ -14,6 +19,8 @@
 	margin: 1.2em 1.2em 0.8em 1.2em;
 	padding: 5px;
 	border-bottom: 2px solid white;
+	margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -27,7 +34,7 @@
 }
 
 
-a:hover, img:hover{
+a:hover, .contenido img:hover{
 	transform: scale(1.1);
 	color: white;
 }
@@ -37,34 +44,62 @@ a:hover, img:hover{
 	margin-left: auto;
 }
 
-.ver{
+
+
+.verMas{
 	display: none;
 }
 
+.redes{
+	height: 80%;
+}
+
+.redes:hover{
+	border: 2px solid white;
+	transform: scale(1.2);
+	border-radius: 50%;
+}
+
+hr{
+	background-color: white;
+}
+
+.imn{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
 @media screen and (max-width: 600px) {
 
-	.caja{
-		
+	.caja{		
 		width: 25em;
 	}
 
 
-  .libro {
+  	.libro {
     width: 10em;
     height: 12em;
- 
-  }
+	}
 
-  .par2, .par3{
+ 	.par2, .par3{
   	display: none;
-  }
+  	}
 
-  .ver{
+  	.verMas{
   	display: block;
   	margin-left: auto;
   	margin-right: auto;
-  }
+  	}
 
+  	.mensajeInicial{
+  		font-size: 3.5em;
+  	}
+
+  	.fondoPrincipal{
+  		height: 15em;
+  	}
 
 }
 
