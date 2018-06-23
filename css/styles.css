@@ -1,13 +1,12 @@
-.bookcase{
-	width: 40%;
-	height: 25%;
-	border-radius: 5%;
-
-}
 
 .fondoPrincipal{
 	height: 30em;
 	width: 100%;
+}
+
+.bookcase{
+	width: 40%;
+	height: 25%;
 }
 
 .libro{
@@ -72,7 +71,7 @@ hr{
 
 	.caja{		
 		width: 25em;
-	}
+	}/*
 
   	.libro {
     width: 10em;
@@ -96,6 +95,8 @@ hr{
   	.fondoPrincipal{
   		height: 15em;
   	}
+
+  	*/
 
 }
 
