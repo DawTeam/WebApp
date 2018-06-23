@@ -2,7 +2,7 @@
 	width: 40%;
 	height: 25%;
 	border-radius: 5%;
-	margin-bottom: 3em;
+
 }
 
 .fondoPrincipal{
@@ -83,6 +83,11 @@ hr{
   	display: none;
   	}
 
+  	.verMas{
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	}
 
   	.mensajeInicial{
   		font-size: 3.5em;
