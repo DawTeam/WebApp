@@ -73,10 +73,14 @@ hr{
 		width: 25em;
 	}
 
+	.par2, .par3{
+  		display: none;
+  	}
+
 	.verMas{
-  	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
+	  	display: block;
+	  	margin-left: auto;
+	  	margin-right: auto;
   	}
 
   	.fondoPrincipal{
@@ -92,9 +96,7 @@ hr{
     height: 12em;
 	}
 
- 	.par2, .par3{
-  	display: none;
-  	}
+
 
 
 
