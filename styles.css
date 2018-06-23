@@ -50,10 +50,6 @@ a:hover, .contenido img:hover{
 	display: none;
 }
 
-.redes{
-	height: 80%;
-}
-
 .redes:hover{
 	border: 2px solid white;
 	transform: scale(1.2);
@@ -76,11 +72,6 @@ hr{
 	.caja{		
 		width: 25em;
 	}
-
-	.redes{
-	height: 80%;
-	}
-
 
   	.libro {
     width: 10em;
