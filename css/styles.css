@@ -71,7 +71,15 @@ hr{
 
 	.caja{		
 		width: 25em;
-	}/*
+	}
+
+	.verMas{
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	}
+
+	/*
 
   	.libro {
     width: 10em;
@@ -82,11 +90,7 @@ hr{
   	display: none;
   	}
 
-  	.verMas{
-  	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  	}
+
 
   	.mensajeInicial{
   		font-size: 3.5em;
