@@ -74,7 +74,8 @@ hr{
 	}
 
 	.par2, .par3{
-  		display:none;
+  		
+  		border: 2px solid red;
   	}
 
 	.verMas{
