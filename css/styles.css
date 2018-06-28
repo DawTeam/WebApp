@@ -66,10 +66,14 @@ hr{
 }
 
 .mapa{
-	width: 70%;
+	width: 80%;
 	height: 20em;
 }
 
+.frase{
+	font-family: 'Playball', cursive;
+	font-size: 1.5em;
+}
 
 
 @media screen and (max-width: 600px) {
