@@ -1,6 +1,6 @@
 {
-    "Usa":["Name":"Usa1","Author":"Usa2","Date":"Usa3"],
-    "Spain":["Name":"Spain1","Author":"Spain2","Date":"Spain3"],
-    "Mexico":["Name":"Mexico1","Author":"Mexico2","Date":"Mexico3"]
+    "Usa":{"Name":"Usa1","Author":"Usa2","Date":"Usa3"},
+    "Spain":{"Name":"Spain1","Author":"Spain2","Date":"Spain3"},
+    "Mexico":{"Name":"Mexico1","Author":"Mexico2","Date":"Mexico3"}
 }
 
