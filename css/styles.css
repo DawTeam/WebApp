@@ -9,6 +9,17 @@
 	height: 28%;
 }
 
+#btnSaber{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	padding: 5px;
+	margin-top: 25px;
+}
+
+
+
 .libro{
 	display: block;
   	margin-left: auto;

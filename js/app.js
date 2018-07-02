@@ -1,36 +1,50 @@
-(function(){
-    $.ajax({
-        type:"GET",
-        url: "data/books.xml",
-        contentType: "text/xml",
-        dataType: "xml",
-        success: Onsuccess
-    })
+var pageCounter = 1;
+var bookContainer = document.getElementById("books-info");
+var btn = document.getElementById("btnSaber");
 
-    function Onsuccess(data){
-        //var row=0
-        //var col1=1
-        //var col2=2
-        $(data).find('book').each(function(){
-			var sAuthor=$(this).find('author').text();
-			var sPrice=$(this).find('price').text();
-			var sGenre=$(this).find('genre').text();
-			var sPublish=$(this).find('publish_date').text();
-			var sDescr=$(this).find('description').text();
-            var sTitle = $(this).find('title').text();
-			
-           // var sText = $(this).find('body').text();
-            //var sUrl = $(this).find('imagen').text();
-            //$("<div class='row' id=''></div>").appendTo("#noticias").attr('id',row);
-            //$("<h3></h3>").html(sTitle).appendTo("#"+row);
-            //$("<div class='col-sm-7' id=''></div>").appendTo("#"+row).attr('id',col1);
-            //$("<p class='text-justify'></p>").html(sText).appendTo("#"+col1);
-            //$("<div class='col-sm-5' id=''></div>").appendTo("#"+row).attr('id',col2);
-            //$("<img class='img-responsive img-fluid imgtitulares' src=''></img></div>").appendTo("#"+col2).attr('src' , sUrl);
-            //row=row+3;
-            //col1=col1+3;
-            //col2=col2+3;
-        });
+btn.addEventListener("click", function() {
+
+
+  var ourRequest = new XMLHttpRequest();
+  ourRequest.open('GET', 'https://dawteam.github.io/WebApp/data/topbooks.json');
+  ourRequest.onload = function() {
+    if (ourRequest.status >= 200 && ourRequest.status < 400) {
+      var ourData = JSON.parse(ourRequest.responseText);
+      renderHTML(ourData);
+    } else {
+      console.log("We connected to the server, but it returned an error.");
     }
-})();
+    
+  };
+
+  ourRequest.onerror = function() {
+    console.log("Connection error");
+  };
+
+  ourRequest.send();
+  pageCounter++;
+  if (pageCounter > 3) {
+    btn.classList.add("hide-me");
+  }
+});
+
+function renderHTML(data) {
+
+
+  var htmlString = "";
+  
+
+  for (i = 0; i < data.length; i++) {
+    var numero = i + 1
+    htmlString += "<p>" + "<strong>" + numero + " )" + data[i].name + "</strong>"  + "</p>" +  
+    "<p>" + "Autor: " + data[i].author +   " | Género: " + data[i].genre+ "</p>";
+    
+ 
+
+  }
+
+  bookContainer.insertAdjacentHTML('beforeend', htmlString);
+}
+
+
 
