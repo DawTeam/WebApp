@@ -1,44 +1,6 @@
-[{
-        "viaje": {
-            "origen": {
-                "iataCode": "VL",
-                "name": "Valencia",
-
-            },
-            "destino": {
-                "iataCode": "BCN",
-                "name": "Barcelona",
-            },
-            "price": {
-                "value": "99.16",
-                "valueMainUnit": "99",
-                "valueFractionalUnit": "16",
-                "currencySymbol": "€"
-            },
-            "dateFrom": "2015-02-02T00:00:00+00:00",
-            "dateTo": "2015-04-02T00:00:00+01:00"
-        }
-    },
-    {
-        "viaje": {
-            "origen": {
-                "iataCode": "VL",
-                "name": "madrid",
-
-            },
-            "destino": {
-                "iataCode": "BCN",
-                "name": "Barcelona",
-            },
-            "price": {
-                "value": "99.16",
-                "valueMainUnit": "99",
-                "valueFractionalUnit": "16",
-                "currencySymbol": "€"
-            },
-            "dateFrom": "2015-02-02T00:00:00+00:00",
-            "dateTo": "2015-04-02T00:00:00+01:00"
-        }
-    }
-    ]
+{
+    "Usa":["Usa1","Usa2","Usa3"],
+    "Spain":["Spain1","Spain2","Spain3"],
+    "Mexico":["Mexico1","Mexico2","Mexico3"]
 }
+
