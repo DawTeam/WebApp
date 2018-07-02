@@ -18,6 +18,14 @@
 	margin-top: 25px;
 }
 
+.readers{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 35em;
+	height: 20em;
+}
+
 
 
 .libro{

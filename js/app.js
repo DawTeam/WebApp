@@ -38,7 +38,6 @@ function renderHTML(data) {
     var numero = i + 1
     htmlString += "<p>" + "<strong>" + numero + " )" + data[i].name + "</strong>"  + "</p>" +  
     "<p>" + "Autor: " + data[i].author +   " | Género: " + data[i].genre+ "</p>";
-    
  
 
   }
