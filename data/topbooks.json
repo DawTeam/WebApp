@@ -1,24 +1,27 @@
 [
   {
-    "name": "El hombre en busca del sentido",
-    "author" : "Victor Frankl",
-    "genre": "drama",
-    "editorial": "Herder Editorial"
+    "name": "Meowsy",
+    "species" : "cat",
+    "foods": {
+      "likes": ["tuna", "catnip"],
+      "dislikes": ["ham", "zucchini"]
+    }
   },
-
   {
-    "name": "Los 7 hábitos de la gente altamente efectiva",
-    "author" : "Victor Frankl",
-    "genre": "drama",
-    "editorial": "Herder Editorial"
+    "name": "Barky",
+    "species" : "dog",
+    "foods": {
+      "likes": ["bones", "carrots"],
+      "dislikes": ["tuna"]
+    }
   },
-
-  
   {
-    "name": "Elon Musk",
-    "author" : "Victor Frankl",
-    "genre": "drama",
-    "editorial": "Herder Editorial"
+    "name": "Purrpaws",
+    "species" : "cat",
+    "foods": {
+      "likes": ["mice"],
+      "dislikes": ["cookies"]
+    }
   }
 ]
 
