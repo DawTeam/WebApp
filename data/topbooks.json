@@ -1,12 +1,5 @@
 [
-  {
-    "name": "Elon Musk",
-    "species" : "Ashley Vancee",
-    "foods": {
-      "likes": ["tuna", "catnip"],
-      "dislikes": ["ham", "zucchini"]
-    }
-  },
+
   {
     "name": "Barky",
     "species" : "dog",
