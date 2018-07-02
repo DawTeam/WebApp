@@ -1,10 +1,10 @@
 [
   {
-    "name": "Purrpaws",
-    "species" : "cat",
-    "foods": {
-      "likes": ["mice"],
-      "dislikes": ["cookies"]
+    "name": "Elon Musk",
+    "author" : "Ashlee Vance",
+    "editorial": "Paidos", 
+    "genres": ["autobiography", "business"],
+ 
     }
   }
 ]
