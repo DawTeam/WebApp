@@ -2,10 +2,15 @@
   {
     "name": "Elon Musk",
     "author" : "Ashlee Vance",
-    "editorial": "Paidos", 
-    "genres": ["autobiography", "business"]
- 
-    }
+    "editorial": "Paidos"
+    
+    },
+  
+  {
+    "name": "Los 7 hábitos de la gente altamente efectiva",
+    "author" : "Victor Frankl",
+    "editorial": "Herder Editorial"
+  }
   
 ]
 
