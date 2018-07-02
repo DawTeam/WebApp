@@ -1,6 +1,12 @@
 {
-    "Usa":{"Usa1","Usa2","Usa3"},
-    "Spain":{"Spain1","Spain2","Spain3"},
-    "Mexico":{"Mexico1","Mexico2","Mexico3"}
+    "b1":{
+    	"name": "El hombre en busca del sentido",
+    	"author": "Victor Frank"
+    }
+
+    "b2" :{
+    	"name": "ElonMusk",
+    	"author": "ashley Vanshee" 
+    }
 }
 
