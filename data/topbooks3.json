@@ -3,7 +3,7 @@
   {
     "name": "En busca del tiempo perdido",
     "author" : "Marcel Proust",
-    "genre": "Ficción, Filosofía"
+    "genre": "Ficcion, Filosofia"
     
     },
   
@@ -16,18 +16,18 @@
   {
     "name": "Las Aventuras de Huckleberry Finn",
     "author" : "Mark Twain",
-    "genre": "Novela, Sátira, Humor"
+    "genre": "Novela, Satira, Humor"
   },
   
   {
     "name": "La Guerra y la paz",
-    "author" : "León Tolstoi",
-    "genre": "Ficción histórica"
+    "author" : "Leon Tolstoi",
+    "genre": "Ficcion historica"
   },
   
   {
     "name": "Anna Karenina",
-    "author" : "León Tolstoi",
+    "author" : "Leon Tolstoi",
     "genre": "Novela"
   }
   
