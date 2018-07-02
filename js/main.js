@@ -1,6 +1,6 @@
 var pageCounter = 1;
 var numero = 1;
-var animalContainer = document.getElementById("animal-info");
+var animalContainer = document.getElementById("book-info");
 var btn = document.getElementById("btnSaber");
 
 btn.addEventListener("click", function() {
